@@ -1,9 +1,9 @@
 #Count the occurrences of the word ‘redi’ in the phrase: "ReDI school is awesome! Yes redi is really cool"
 # a) Cut the sentence into two on the character ! Output the first part in lower case and the second part in uppercase
-# b) ask the user what word to search for 
-# c) give the starting position of the searched word
+# b) Ask the user what word to use
 
-redi_string = "     ReDI school is awesome! Yes redi is really cool        "
+redi_string = input('Please enter the string:')
+#redi_string = "     ReDI school is awesome! Yes redi is really cool        "
 sub_string = "REDI"
 
 # convert string to lowercase
